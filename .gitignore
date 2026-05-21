@@ -9,36 +9,74 @@ dist/
 web-build/
 expo-env.d.ts
 
-# Native
+# Native generated folders
+/ios
+/android
+app/ios
+app/android
+
+# Kotlin
 .kotlin/
+
+# Build / temp files
 *.orig.*
+*.tsbuildinfo
+
+# Signing / certificates
 *.jks
 *.p8
 *.p12
 *.key
 *.mobileprovision
+*.pem
 
 # Metro
 .metro-health-check*
 
-# debug
+# Debug logs
 npm-debug.*
 yarn-debug.*
 yarn-error.*
 
 # macOS
 .DS_Store
-*.pem
 
-# local env files
+# Environment files
+.env
+.env.*
 .env*.local
 
-# typescript
-*.tsbuildinfo
+# Supabase local
+.supabase/
 
-#bolna ans
+# Bolna answers / private docs
 SECTION_4_ANSWER
+SECTION_4_ANSWERS.md
 
-# generated native folders
-/ios
-/android
+# Coverage
+coverage/
+
+# Logs
+logs
+*.log
+
+# VSCode
+.vscode/
+
+# IntelliJ / Android Studio
+.idea/
+
+# Expo cache
+.expo-shared/
+
+# Package manager lock backup
+package-lock-backup.json
+yarn.lock.backup
+
+# Temporary files
+tmp/
+temp/
+.cache/
+
+# Misc
+Thumbs.db
