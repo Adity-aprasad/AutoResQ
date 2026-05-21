@@ -1,0 +1,45 @@
+{
+  "expo": {
+    "name": "SafeRoute SOS",
+
+    "slug": "saferoute-sos",
+
+    "version": "1.0.0",
+
+    "orientation": "portrait",
+
+    "userInterfaceStyle": "dark",
+
+    "splash": {
+      "backgroundColor": "#0a0b0d",
+
+      "resizeMode": "contain"
+    },
+
+    "assetBundlePatterns": ["**/*"],
+
+    "ios": {
+      "supportsTablet": true,
+
+      "bundleIdentifier": "com.saferoute.sos"
+    },
+
+    "android": {
+      "package": "com.saferoute.sos",
+
+      "adaptiveIcon": {
+        "backgroundColor": "#0a0b0d"
+      }
+    },
+
+    "plugins": [
+      [
+        "expo-image-picker",
+
+        {
+          "photosPermission": "SafeRoute needs access to your photos to upload your driving licence and Aadhaar card."
+        }
+      ]
+    ]
+  }
+}
